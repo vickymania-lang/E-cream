@@ -134,7 +134,7 @@
 					<div class="col-6 col-sm-2">
 						<!-- mainLogo -->
 						<div class="logo">
-							<a href="index.html"><img src="images/rough/Creamy-removebg-preview.png" alt="Creamy" class="img-fluid"></a>
+							<a href="index.html"><img src="images/bg/Creamy_store-removebg-preview.png" alt="Creamy" class="img-fluid"></a>
 						</div>
 					</div>
 					<div class="col-6 col-sm-7 col-lg-8 static-block">
@@ -151,12 +151,8 @@
 								<div class="collapse navbar-collapse" id="navbarNav">
 									<ul class="navbar-nav mx-auto text-uppercase d-inline-block">
 										<li class="nav-item dropdown">
-											<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><a>Home</a>
-											<!--<ul class="list-unstyled text-capitalize dropdown-menu mt-0 py-0">
-												<li class="d-block mx-0"><a href="home.html">Home 1</a></li>
-												<li class="d-block mx-0"><a href="home2.html">Home 2</a></li>
-												<li class="d-block mx-0"><a href="home3.html">Home 3</a></li>
-											</ul>-->
+											<a style="position: relative; top: -5px;" role="button" aria-haspopup="true" aria-expanded="false" href="index.html">Home</a>
+											
 										</li>
 										<li class="nav-item dropdown">
 											<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Store</a>
@@ -169,10 +165,10 @@
 											<a class="d-block" href="about-us.html">About</a>
 										</li>
 										<li class="nav-item active dropdown">
-											<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign</a>
+											<a class="dropdown-toggle d-block" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign in</a>
 											<ul class="list-unstyled text-capitalize dropdown-menu mt-0 py-0">
 												<li class="d-block mx-0"><a href="Sign.html">Sign in</a></li>
-												<!--<li class="d-block mx-0"><a href="blog-detail.html">Blog Detail</a></li>-->
+												
 											</ul>
 										</li>
 										<li class="nav-item dropdown">
@@ -204,10 +200,11 @@
 
 
 	<!-- form html-->
-	<form action="/action_page.php" method="post">
-		<!--<div class="imgcontainer">
-		  <img src="images/rough/passport.jpg" alt="Avatar" class="avatar">
-		</div>-->
+	<form action="/action_page.php" method="post" style="background-image: url('images/bg/backsign.jpg');">
+		<div class="imgcontainer">
+			<img src="images/bg/circle.jpg" alt="Avatar" class="avatar">
+		  </div>
+		
 	  
 		<div class="container">
 		  <label for="uname"><b>Username</b></label>
@@ -216,7 +213,7 @@
 		  <label for="psw"><b>Password</b></label>
 		  <input type="password" placeholder="Enter Password" name="psw" required>
 			  
-		  <button type="submit">Login</button>
+		  <button type="submit" role="button" href="index.html">Login</button>
 		  <label>
 			<input type="checkbox" checked="checked" name="remember"> Remember me
 		  </label>
